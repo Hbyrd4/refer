@@ -1,1 +1,31 @@
 /* Place CSS styles here */
+/* homepage */
+/* shortcut=command / */
+/* star means all */
+p {
+    color:blue
+}
+
+p {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    color: rosybrown
+}
+
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid rgb(79, 76, 76);
+    border-radius: 12px;
+    padding: 12px 24px;
+}
+
+a {
+    color: blueviolet;
+}
+
+a:hover {
+color: plum;
+}
