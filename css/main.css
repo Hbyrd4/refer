@@ -5,13 +5,23 @@
 p {
     color:blue
 }
+/* distributes font to entire site*/
+body {
+    font-family: 'Play', sans-serif;
+}
 
 p {
     background-color: blanchedalmond;
 }
-
-h1 {
-    color: rosybrown
+/* distribute font to all headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rosybrown;
+    font-family: 'Source Code Pro', monospace;
 }
 
 div {
