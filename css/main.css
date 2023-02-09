@@ -13,6 +13,7 @@ body {
 
 p {
     background-color: blanchedalmond;
+    font-size: 20px;
 }
 /* distribute font to all headings */
 h1,
@@ -23,8 +24,15 @@ h5,
 h6 {
     color: rosybrown;
     font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
+h1 {
+    font-size: 80px;
+    /* text-align: center; */
+}
 div {
     max-width: 800px;
     margin: 0 auto;
@@ -40,3 +48,11 @@ a {
 a:hover {
 color: plum;
 }
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.nanaking {
+    text-align: center;
+} 
