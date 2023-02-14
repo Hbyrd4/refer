@@ -56,6 +56,7 @@ img {
 .nanaking {
     text-align: center;
 } 
+
 .gizimg {
     text-align: center;
     border: 4px solid orange;
@@ -67,4 +68,21 @@ img {
     text-align: center;
     border: 4px solid orange;
     padding: 40px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    background-color: brown;
+    text-align: center;
+}
+
+.trois {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
