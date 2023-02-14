@@ -49,8 +49,8 @@ a:hover {
 color: plum;
 }
 img {
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: auto;
 }
 
 .nanaking {
@@ -74,15 +74,38 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(172, 172, 172);
 }
 
+.head nav {
+    display: flex;
+    justify-content:space-between;
+}
+.small {
+width: 20%;
+}
 .name {
-    background-color: brown;
+    background-color: rgb(195, 132, 132);
     text-align: center;
 }
 
 .trois {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
+    padding: 20px;
+    border: 1px black;
+}
+
+.tiles {
+    display: flex;
+    gap: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+footer img {
+    width: 400px;
 }
