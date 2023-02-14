@@ -2,9 +2,14 @@
 /* shortcut=command / */
 /* star means all */
 /* homepage */
+html {
+    scroll-behavior: smooth;
+}
+
 p {
     color:blue
 }
+
 /* distributes font to entire site*/
 body {
     color: olivedrab;
@@ -15,6 +20,7 @@ p {
     background-color: blanchedalmond;
     font-size: 20px;
 }
+
 /* distribute font to all headings */
 h1,
 h2,
@@ -33,6 +39,7 @@ h1 {
     font-size: 80px;
     /* text-align: center; */
 }
+
 .borderloser {
     max-width: 800px;
     margin: 0 auto;
@@ -48,6 +55,7 @@ a {
 a:hover {
 color: plum;
 }
+
 img {
     width: 100%;
     height: auto;
