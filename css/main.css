@@ -6,8 +6,33 @@ html {
     scroll-behavior: smooth;
 }
 
+/* .links {
+    color: blueviolet;
+}
+ 
+.links:hover {
+color: plum;
+} */
+
 p {
     color:blue
+}
+
+.backb {
+    color: gold;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:  10px;
+    padding-right: 10px;
+    border: 1px black;
+    border-radius: 8px;
+    transition: 1s all ease;
+}
+
+.backb:hover {
+color: black;
+background-color: gold;
 }
 
 /* distributes font to entire site*/
@@ -46,14 +71,6 @@ h1 {
     border: 2px solid rgb(79, 76, 76);
     border-radius: 12px;
     padding: 12px 24px;
-}
-
-a {
-    color: blueviolet;
-}
- 
-a:hover {
-color: plum;
 }
 
 img {
