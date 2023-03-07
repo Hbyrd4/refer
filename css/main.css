@@ -27,7 +27,7 @@ p {
     padding-right: 10px;
     border: 1px black;
     border-radius: 8px;
-    transition: 1s all ease;
+    transition: .25s all ease;
 }
 
 .backb:hover {
@@ -134,3 +134,5 @@ footer {
 footer img {
     width: 400px;
 }
+
+/* MUSIC */
