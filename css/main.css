@@ -39,6 +39,7 @@ background-color: gold;
 body {
     color: olivedrab;
     font-family: 'Bebas Neue', cursive;
+    background-color: antiquewhite;
 }
 
 p {
@@ -173,6 +174,7 @@ footer img {
 
 .apple {
     display: flex;
+    gap: 20px;
 }
 
 @media screen and (max-width: 479px) {
@@ -180,4 +182,32 @@ footer img {
       width: 100%;
       justify-content: space-between;
     }
+  }
+
+  .albums {
+    display: flex;
+    gap: 12px;
+  }
+  
+  /* phone */
+  @media screen and (max-width: 479px) {
+    .albums {
+      flex-direction: column;
+    }
+  }
+  
+  /* tablet */
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .albums {
+      background-color: red;
+    }
+  }
+  
+  /* desktop */
+  @media screen and (min-width: 768px){
+  
+  }
+  
+  .album {
+  
   }
