@@ -136,3 +136,48 @@ footer img {
 }
 
 /* MUSIC */
+.headerm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px;
+}
+/* phone screen */
+@media screen and (max-width: 479px) {
+    .headerm {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (min-width: 480px) {
+    .headerm {
+      flex-direction: row;
+    }
+  }
+
+  /* @media screen and (max-width: 767px) {
+    .link {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .link {
+      flex-direction: row;
+    }
+  } */
+
+.logo {
+    max-width: 120px;
+}
+
+.apple {
+    display: flex;
+}
+
+@media screen and (max-width: 479px) {
+    .apple {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
